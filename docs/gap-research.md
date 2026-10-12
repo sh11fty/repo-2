@@ -44,3 +44,20 @@ A lightweight client-chasing tool for small practices/bookkeepers: sends quarter
 - **Unvalidated:** whether small practices find existing tools too heavy or expensive. That is what the smoke test and interviews must show.
 - Landing page: `landing/mtd-chaser/`.
 - Test: 10 conversations with small practices/bookkeepers before any build; waitlist target ≥5% as before.
+
+---
+
+## Round 4: wider gold-rush sweep (2026-10-12)
+
+Desk research only; most sources are vendor/trade blogs. Treat as leads.
+
+| Rush | Evidence | Shovel idea | Strength |
+|---|---|---|---|
+| Home solar + battery | MCS: 210k installs H1 2026 (+17%), 36k battery installs (~2x), 92% on homes with solar ([CIBSE Journal](https://www.cibsejournal.com/news/uk-households-lead-record-surge-in-solar-and-battery-storage-installations-as-renewable-adoption-accelerates-in-2026/)). Anecdotal complaints: stalled installs, ghosted after deposit, scratched panel ([The Cool Down](https://www.thecooldown.com/green-home/uk-homeowner-solar-installation-issues-battery-wifi/)). Installer survey capacity flagged as a bottleneck (commentary). | Independent quote check and post-install snagging/inspection for homeowners; or design/survey capacity for installers | Medium. Complaints are anecdotal; need many more. |
+| Renters' Rights Act | Landlord must prove the Information Sheet was served; solicitors audit compliance before a sale; selling-notice blocks re-letting for 12 months ([Gorvins](https://www.gorvinsresidential.com/selling-a-rental-property-in-2026-how-the-new-renters-rights-bill-affects-you/), [Landlord Today](https://www.landlordtoday.co.uk/breaking-news/2026/04/new-tool-geared-to-renters-rights-act-information-sheet/)). Landlord database rolls out from late 2026. | Compliance-evidence pack / sale-readiness audit for small landlords. Lendlord already sells a proof-of-service tool. | Medium. Real deadlines, vendor competition. |
+| AI adoption by small firms | Skills/expertise is the top barrier (DSIT figure via [techUK](https://www.techuk.org/resource/major-barriers-to-ai-adoption-remain-for-uk-businesses-despite-growing-demand-new-report-reveals.html)); adoption figures vary 16-71% by survey. | Hands-on AI setup for local firms (Sheffield/Rotherham) | Medium-low. Demand real, but a crowded consulting market. |
+| Age verification (Online Safety Act) | Ofcom fines so far hit adult sites and large platforms; small-forum cost evidence is thin and mostly US/2024. | Compliance help for small forums | Low. No 2026 evidence of small-provider pain. |
+| Heat pump/energy upgrade grants | Grants rose (BUS to £9,000 for oil/LPG homes from 21 Jul 2026), installer-led applications. No evidence of homeowner confusion found. | Grant-eligibility guidance | Low. |
+
+### Read
+Nothing here is new either. The two best-supported are solar/battery snagging and Renters' Rights Act sale-readiness, because there is a live boom or deadline, an identifiable payer, and visible complaints. Both need real customer conversations before any build.
