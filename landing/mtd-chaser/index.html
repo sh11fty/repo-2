@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MTD Chaser</title>
+<meta name="description" content="Stop chasing clients for quarterly records. Built for small UK practices and bookkeepers.">
+<style>
+:root{--bg:#fff;--fg:#111827;--muted:#4b5563;--accent:#1d4ed8;--card:#f3f4f6}
+@media(prefers-color-scheme:dark){:root{--bg:#0f172a;--fg:#f1f5f9;--muted:#94a3b8;--accent:#60a5fa;--card:#1e293b}}
+*{box-sizing:border-box}body{margin:0;font:16px/1.5 system-ui,sans-serif;background:var(--bg);color:var(--fg)}
+main{max-width:640px;margin:0 auto;padding:32px 16px}
+h1{font-size:2rem;line-height:1.2;margin:0 0 12px}p.sub{color:var(--muted);font-size:1.1rem}
+.card{background:var(--card);border-radius:12px;padding:16px;margin:24px 0}li{margin:8px 0}
+form{display:flex;gap:8px;flex-wrap:wrap}input[type=email]{flex:1 1 220px;padding:12px;border-radius:8px;border:1px solid var(--muted);font-size:1rem;background:var(--bg);color:var(--fg)}
+button{padding:12px 20px;border:0;border-radius:8px;background:var(--accent);color:#fff;font-size:1rem;cursor:pointer}small{color:var(--muted)}
+</style>
+</head>
+<body>
+<main>
+<h1>MTD added the chasing. We take it off your desk.</h1>
+<p class="sub">Quarterly record requests for sole-trader clients, sent and followed up automatically, so you can focus on the filing.</p>
+<div class="card"><ul>
+<li>Request records each quarter by email, SMS or WhatsApp link.</li>
+<li>Clients upload receipts and income in a simple page, with no login.</li>
+<li>See at a glance who is outstanding before each deadline.</li>
+</ul></div>
+<p><strong>Planned price:</strong> about £15–40/month per practice (to be confirmed).</p>
+<!-- TODO: replace FORM_ENDPOINT with your form service URL before publishing -->
+<form action="FORM_ENDPOINT" method="POST">
+<input type="email" name="email" placeholder="you@practice.co.uk" required aria-label="Email address">
+<input type="hidden" name="product" value="mtd-chaser">
+<button type="submit">Join the waitlist</button>
+</form>
+<p><small>In development, not yet available. Works alongside your existing HMRC-recognised MTD software and does not file with HMRC. We'll only email you about this product.</small></p>
+</main>
+</body>
+</html>

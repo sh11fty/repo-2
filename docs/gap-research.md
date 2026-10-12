@@ -26,3 +26,21 @@ Source quality: the finance/ageing data are primary reports; the "business idea"
 
 ### Honest take
 These are real needs, but each has incumbents, and #1 and #2 are the best-evidenced. Next: pick one, then run the Phase 1 competitor and complaint check on it.
+
+---
+
+## Round 3: shovel-seller angle, MTD for accountants (2026-10-12)
+
+Sole traders and landlords are the diggers. Accountants and bookkeepers carry the workload. Findings:
+
+- Core pain is **chasing clients for records each quarter**, not the submissions ([AccountingWeb](https://www.accountingweb.co.uk/community/industry-insights/mtd-didnt-add-tax-work-it-added-the-chasing)). A 200-client practice faces at least 1,000 submission events a year instead of 200 ([Briefcase](https://briefcase.so/blog/mtd-for-itsa-2026-accounting-software-guide)).
+- Readiness is poor: only 54% of mandated taxpayers filed Q1, and 70% were still off cloud software, per a Bright survey of 14,000+ practitioners ([Accountancy Age](https://accountancy.age/2026/09/28/the-real-cost-of-unprepared-mtd-clients-accountex-manchester-2026/); URL as returned by search, verify). 45% of 1,000 sole traders felt unprepared, 31% had never heard of MTD (IRIS, via [Accountex](https://www.accountex.co.uk/insight/2025/05/21/mtd-awareness-gap-signals-opportunity-for-accountants/)).
+- Capacity is the practices' top worry (36% cite time to become compliant; [Wolters Kluwer](https://www.wolterskluwer.com/en-gb/expert-insights/non-digitalised-clients-key-challenges-mtd-income-tax)).
+- **Competitors exist:** FreeAgent, TaxCalc, untied, Capium, Engager, Sage. Practice-management tools already handle deadlines and reminders ([Engager](https://engager.app/practice-management-software-what-to-look-for-2026/)). I found no independent head-to-head reviews, and no count of UK practices.
+
+### Candidate shovel: "MTD Chaser"
+A lightweight client-chasing tool for small practices/bookkeepers: sends quarterly record requests by SMS/WhatsApp/email to sole traders, collects receipts and mileage, shows who is outstanding. Works alongside whatever MTD software the practice uses; it does not file with HMRC.
+- **Price to test:** £15–40/month per practice.
+- **Unvalidated:** whether small practices find existing tools too heavy or expensive. That is what the smoke test and interviews must show.
+- Landing page: `landing/mtd-chaser/`.
+- Test: 10 conversations with small practices/bookkeepers before any build; waitlist target ≥5% as before.
