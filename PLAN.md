@@ -72,3 +72,23 @@ At £30/year per paying user, 500 paying users is £15,000/year before Google's 
 ## Immediate next steps
 1. Run Phase 1 for ideas A, B and C.
 2. Confirm your skills, budget and time so the ideas can be re-ranked.
+
+---
+
+## Phase 1 findings (2026-10-12)
+
+Desk research only: a few web searches, no review mining, no Reddit/forum counts, no keyword volumes. The Phase 1 gate (10 real complaints per idea, keyword volume) is **not yet met for any idea**. Treat the results as leads.
+
+| Idea | Competitors found | Gap signal | Verdict |
+|---|---|---|---|
+| A. Tax Pot | [Coconut](https://www.capterra.com/p/184322/Coconut/) (monthly set-aside recommendation, 30+ UK banks, 30-day trial); Countingup, FreeAgent (not verified) | Weak. Coconut already does set-aside. | Lowest priority. Needs a clear differentiator. |
+| B. Ticket Wallet | [Trade2Base](https://www.trade2base.com/help/manage-certs) (Gas Safe/NICEIC/CSCS expiry alerts at 60/30 days, but per-engineer/team); [Powered Now](https://powerednow.com/?p=12718) (certificates issued to customers); landlord tools (PaTMa, August) | Moderate. Existing tools are team/employer or job-management products. No result showed a lightweight solo-trader tracker covering public liability insurance. | Best candidate for smoke test. |
+| C. Move-In Proof | [Shelter Scotland Housemate](https://www.scotsman.com/news/introducing-the-latest-weapon-against-bad-landlords-the-ihome-1609932) (free iPhone app, old article; current status unverified); landlord/agent inventory vendors | Moderate on Android. Guidance confirms timestamped photos and tenant sign-off matter ([MyDeposits](https://mydeposits.co.uk/?p=4654), [Shelter](https://england.shelter.org.uk/housing_advice/tenancy_deposits/how_to_get_your_deposit_back/evidence_deposit_dispute)). | Smoke-test candidate. Concern: one-off purchase, seasonal, low lifetime value. |
+
+### Recommendation
+Run the Phase 2 smoke test on **B** and **C**, and drop **A** unless a differentiator from Coconut emerges.
+
+### Still to do before spending on ads
+1. Mine 1-3 star reviews on the Play Store for Trade2Base and other competitors (needs store access; web search could not return them).
+2. Collect 10+ real complaint links per idea from Reddit (r/electricians, r/UKPersonalFinance, r/HousingUK) and trade Facebook groups.
+3. Check keyword volume for terms like "gas safe renewal reminder", "CSCS card expiry", "tenancy deposit evidence app".
