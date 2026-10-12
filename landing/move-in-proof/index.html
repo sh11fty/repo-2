@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Move-In Proof</title>
+<meta name="description" content="Timestamped move-in evidence for tenants.">
+<style>
+:root{--bg:#fff;--fg:#111827;--muted:#4b5563;--accent:#1d4ed8;--card:#f3f4f6}
+@media(prefers-color-scheme:dark){:root{--bg:#0f172a;--fg:#f1f5f9;--muted:#94a3b8;--accent:#60a5fa;--card:#1e293b}}
+*{box-sizing:border-box}body{margin:0;font:16px/1.5 system-ui,sans-serif;background:var(--bg);color:var(--fg)}
+main{max-width:640px;margin:0 auto;padding:32px 16px}
+h1{font-size:2rem;line-height:1.2;margin:0 0 12px}p.sub{color:var(--muted);font-size:1.1rem}
+ul{padding-left:20px}li{margin:8px 0}
+.card{background:var(--card);border-radius:12px;padding:16px;margin:24px 0}
+form{display:flex;gap:8px;flex-wrap:wrap}input[type=email]{flex:1 1 220px;padding:12px;border-radius:8px;border:1px solid var(--muted);font-size:1rem;background:var(--bg);color:var(--fg)}
+button{padding:12px 20px;border:0;border-radius:8px;background:var(--accent);color:#fff;font-size:1rem;cursor:pointer}
+small{color:var(--muted)}
+</style>
+</head>
+<body>
+<main>
+<h1>Protect your deposit with proof from day one.</h1>
+<p class="sub">A simple Android app that guides tenants through photographing a property's condition at move-in and move-out.</p>
+<div class="card"><ul><li>Room-by-room prompts so nothing gets missed.</li><li>Photos and video saved with timestamps.</li><li>Compare move-in and move-out side by side and export a PDF bundle.</li></ul></div>
+<p><strong>Planned price:</strong> About £4.99 per tenancy (subject to change).</p>
+<!-- TODO: replace FORM_ENDPOINT with your form service URL (e.g. Formspree) before publishing -->
+<form action="FORM_ENDPOINT" method="POST">
+<input type="email" name="email" placeholder="you@example.com" required aria-label="Email address">
+<input type="hidden" name="product" value="move-in-proof">
+<button type="submit">Join the waitlist</button>
+</form>
+<p><small>Android app in development. Not yet available. We'll only email you about this app. move-in-proof0</small></p>
+</main>
+</body>
+</html>
